@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #333;
+}
+
+.row_btn{
+    display: flex;
+    justify-content: center;
+} 
+
+
+#btn{
+    margin: 4rem auto;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 5px;
+    background: #ddd;
+    color: #000;
+    transition: all .3s;
+}
+
+#btn:hover{
+    background: #222;
+    color: #ddd;
+    border: 2px solid #ddd;
+}
+
+.card{
+    margin: 10px;
+}
+
+.row>*{
+    padding: 0;
+}
